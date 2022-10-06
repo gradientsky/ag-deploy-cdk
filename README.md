@@ -32,11 +32,11 @@ ag-deploy-cdk/
 │       ├── code
 │       │   ├── inference.py
 │       │   └── requirements.txt          # Inference script
-│       └── model
+│       └── model                         # AutoGluon model files are going here
 │           ├── README.md
 │           ├── __version__
 │           ├── learner.pkl
-│           ├── models                    # AutoGluon model files are going here
+│           ├── models
 │           │   ├── KNeighborsUnif
 │           │   │   └── model.pkl
 │           │   ├── LightGBM
